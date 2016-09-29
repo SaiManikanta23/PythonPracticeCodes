@@ -1,3 +1,4 @@
+#Program to Print squares of numbers in the given range
 def printDict():
 	d=dict()
 	print "Enter the range to display the squares"
