@@ -18,13 +18,16 @@
 #1990  
 #Sample Output
 #False  
-def is_leap(year):
-    leap = False
-    if ( year % 4 == 0):
-        if (year % 100 == 0):
-            if (year % 400 == 0):
+
+
+#Here lp=Leap, yr=Year
+def is_lp(year):
+    lp = False
+    if ( yr % 4 == 0):
+        if (yr % 100 == 0):
+            if (yr % 400 == 0):
                 leap = True
         else:
-            leap = True
+            lp = True
     
-    return leap
+    return lp
