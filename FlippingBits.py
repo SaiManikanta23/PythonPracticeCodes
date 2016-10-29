@@ -5,6 +5,6 @@ def flipBits(a):
 if __name__ == '__main__':
     n = int(raw_input())
     for i in range(0,n):
-        a = int(raw_input())
-        res = flipBits(a)
+        answer = int(raw_input())
+        res = flipBits(answer)
         print res
